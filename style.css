@@ -264,7 +264,6 @@ h2 {
 .thumbnail video {
   margin-top: 0.4em;
   border-radius: 5px;
-/*  width: 10em;*/
   width: 100%;
   height: 100%;
 }
@@ -306,7 +305,7 @@ h3 a:hover {
   color: #a0a8b0;
 }
 
-#footer p {
+#footer span {
   position: absolute;
   bottom: 1em;
   z-index: -1;
