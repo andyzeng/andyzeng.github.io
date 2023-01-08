@@ -1,0 +1,1048 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89797207-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-89797207-1');
+    </script>
+
+    <!-- Title -->
+    <title>Andy Zeng - Google</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1000">
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/3d2569c7fa.js" crossorigin="anonymous"></script>
+
+    <!-- Isotope JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+    </style>
+  </head>
+
+  <body id="body">
+
+    <div id="header"></div>
+
+    <div id="main">
+      <div id="intro">
+        <div id="intro-text">
+          <h1>Andy Zeng</h1>
+          <p>
+            Hi there! I'm a Research Scientist at <a href="https://research.google/teams/robotics/">Google Brain</a>, where I work on vision and language for robotics. My research focuses on robot learning – to enable machines to intelligently interact with the world and improve themselves over time. These days I'm interested in how robots can benefit from Internet-scale data.
+            <div id="more-bio" style="display: None">
+              <br>
+              <p>Andy Zeng is a Senior Research Scientist at <a href="https://research.google/teams/robotics/">Google Brain</a> working on vision and language for robotics. His research focuses on robot learning – to enable machines to intelligently interact with the world and improve themselves over time. He received his Bachelors in Computer Science and Mathematics at <a href="https://www.berkeley.edu/">UC Berkeley</a> '15, and his PhD in Computer Science at <a href="https://www.princeton.edu/">Princeton University</a> '19. Andy is a recipient of several awards including the Best Paper Award at T-RO '20, Best System Paper Award at RSS '19 and Amazon Robotics '18, 1st Place (Stow) at the Amazon Picking Challenge '17, and has been finalist for Best Paper Awards at conferences CoRL '22, CoRL '21, CoRL '20, ICRA '20, RSS '19, IROS '18. His research has been recognized through the Princeton SEAS Award for Excellence '18, NVIDIA Fellowship '18, and Gordon Y.S. Wu Fellowship in Engineering and Wu Prize '16, and his work has been featured in many popular press outlets, including the New York Times, BBC, and Wired.</p>
+            </div>
+            <br>
+            <a href="javascript:toggle_bio()">Formal Bio</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/andyzeng">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://scholar.google.com/citations?user=q7nFtUcAAAAJ&hl=en">G. Scholar</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/andyzenglinked">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com/andyzengtweets">Twitter</a>
+            <br><br>
+            andyzeng at google dot com
+            <br><br>
+          </p>
+        </div>
+        <div id="intro-image">
+          <img src="images/profile.jpg">
+        </div>
+      </div>
+
+      <div id="filters" class="button-group">
+        <!-- <button class="button" data-filter="*">Show All</button> -->
+        <button class="button is-checked" data-filter=".highlight">Highlights</button>
+        <button class="button" data-filter=".publication">Research</button>
+        <button class="button" data-filter=".talk">Talks</button>
+        <button class="button" data-filter=".misc">Misc</button>
+      </div>
+
+      <div class="grid">
+
+        <!-- Highlights -->
+        <div class="list-item highlight description" data-category="highlight">
+          Some recent highlights from our research:
+        </div>
+
+        <!-- Preview Videos -->
+        <div class="list-item highlight previews" data-category="highlight">
+
+          <a href="https://say-can.github.io/"><video class="preview1" playsinline="" muted="" autoplay="" loop=""><source src="images/video-saycan.mp4" type="video/mp4"></video></a>
+
+          <a href="https://tossingbot.cs.princeton.edu/"><video class="preview2" playsinline="" muted="" autoplay="" loop=""><source src="images/video-tossingbot-crop.mp4" type="video/mp4"></video></a>
+
+          <video class="preview3" playsinline="" muted="" autoplay="" loop=""><source src="images/video-closed-loop-grasping.mp4" type="video/mp4"></video>
+
+        </div>
+
+        <!-- Truncated Set of Highlights (Shown by Default) -->
+        <div id="main-highlights">
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>Google AI</b> blog post <a href="https://ai.googleblog.com/2022/11/robots-that-write-their-own-code.html">"Robots That Write Their Own Code"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>AXIOS</b> article <a href="https://www.axios.com/2022/11/03/google-artificial-intelligence">"Unleash All This Creativity: Google AI's Breathtaking Potential"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>CNET</b> video <a href="https://www.youtube.com/watch?v=dCPHGwW9SOk">"Google’s Most Advanced Robot Brain Just Got a Body"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+             <b>T-RO</b> IEEE Transactions on Robotics <a href="https://www.ieee-ras.org/publications/t-ro">Best Paper Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <b>New York Times</b> article <a href="http://andyzeng.github.io/images/nytimes-business-newspaper-tossingbot.png">"A New Lab Full of Fast Learners"</a>
+          </div>
+
+        </div>
+
+        <!-- All Archived Highlights (Click to Show) -->
+        <div id="more-highlights" style="display: None">
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">2022</p>Conference on Robot Learning (CoRL) <a href="https://corl2022.org/awards/">Special Innovation Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2022/11/robots-that-write-their-own-code.html">"Robots That Write Their Own Code"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI@ Event <a href="https://code-as-policies.github.io/">Code as Policies</a> demo - <a href="https://www.axios.com/2022/11/03/google-artificial-intelligence">AXIOS</a>, <a href="https://techcrunch.com/2022/11/02/google-wants-robots-to-generate-their-own-code/">TechCrunch</a>, <a href="https://www.zdnet.com/article/google-wants-robots-to-write-their-own-python-code/">ZDNet</a> (60+ articles)
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>CNET video <a href="https://www.youtube.com/watch?v=dCPHGwW9SOk">"Google’s Most Advanced Robot Brain Just Got a Body"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google Research <a href="https://sites.research.google/palm-saycan">PaLM-SayCan</a> debut - <a href="https://www.wired.com/story/google-robot-learned-to-take-orders-by-scraping-the-web/">Wired</a>, <a href="https://www.washingtonpost.com/video/technology/google-is-training-robots-to-perform-complex-tasks/2022/08/16/3339cdbb-344b-482f-8671-33022725df81_video.html">Washington Post</a>, <a href="https://www.theverge.com/2022/8/16/23307730/google-everyday-robots-project-ai-language-skills-palm-saycan">The Verge</a> (260+ articles)
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2022/02/robot-see-robot-do.html">"Robot See, Robot Do"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Princeton News article <a href="https://engineering.princeton.edu/news/2022/01/25/picking-trash-robots-pick-new-approaches-work">"In Picking Up Trash, Robots Pick Up New Approaches to Work"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">2021</p>Conference on Robot Learning (CoRL) <a href="https://x-irl.github.io/">Best Paper Award Finalist</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2021/05/learning-to-manipulate-deformable.html">"Learning to Manipulate Deformable Objects"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Japan Factory Automation (FA) <a href="https://www.tandfonline.com/doi/full/10.1080/01691864.2019.1698463">Foundation Paper Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2021/02/rearranging-visual-world.html">"Rearranging the Visual World"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">2020</p>IEEE Transactions on Robotics (T-RO) <a href="https://www.ieee-ras.org/publications/t-ro">Best Paper Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Conference on Robot Learning (CoRL) <a href="https://transporternets.github.io/">Best Paper Presentation Award Finalist</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2020/03/visual-transfer-learning-for-robotic.html">"Visual Transfer Learning for Robotic Manipulation"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>IEEE International Conference on Robotics and Automation (ICRA) <a href="https://form2fit.github.io/">Best Paper in Automation Award Finalist</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2020/02/learning-to-see-transparent-objects.html">"Learning to See Transparent Objects"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">2019</p>New York Times article <a href="http://andyzeng.github.io/images/nytimes-business-newspaper-tossingbot.png">"A New Lab Full of Fast Learners"</a> (100+ articles)
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2019/10/learning-to-assemble-and-to-generalize.html">"Learning to Assemble and to Generalize"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Robotics: Science and Systems (RSS) <a href="https://tossingbot.cs.princeton.edu/">Best System Paper Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Google AI blog post <a href="https://ai.googleblog.com/2019/03/unifying-physics-and-deep-learning-with.html">"Unifying Physics and Deep Learning with TossingBot"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">2018</p>Honored to be a recipient of the Princeton SEAS Award for Excellence
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>IEEE International Conference on Intelligent Robots and Systems (IROS) <a href="http://vpg.cs.princeton.edu/">Best Cognitive Paper Award Finalist</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Amazon Robotics <a href="http://arc.cs.princeton.edu">Best System Paper Award</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>Honored to be a recipient of the <a href="https://blogs.nvidia.com/blog/2018/04/04/nvidia-graduate-fellowship-program/">NVIDIA Fellowship</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date"></p>MIT News article <a href="https://news.mit.edu/2018/robo-picker-grasps-and-packs-0220">"Robo-Picker Grasps and Packs"</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">2017</p>1st place winners (stow) at the worldwide <a href="https://www.amazonrobotics.com/">Amazon Picking Challenge</a> 2017 with <a href="https://arc.cs.princeton.edu/">Team MIT-Princeton</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">2016</p>3rd place winners at the worldwide <a href="https://www.amazonrobotics.com/">Amazon Picking Challenge</a> 2016 with <a href="https://arc.cs.princeton.edu/">Team MIT-Princeton</a>
+          </div>
+
+          <div class="list-item highlight" data-category="highlight">
+            <p class="date">2015</p>Honored to be a recipient of the <a href="http://giving.princeton.edu/scholarships-fellowships/fellowships/endowed2">Gordon Y.S. Wu Fellowship in Engineering and Wu Prize</a>
+          </div>
+
+        </div>
+
+        <!-- Toggle highlights button. -->
+        <div class="list-item highlight toggle-button" data-category="highlight">
+          <a id="toggle_highlights_button" href="javascript:toggle_highlights()">Show more</a>
+        </div>
+
+
+
+
+        <!-- Publications -->
+        <div class="list-item publication" data-category="publication">
+          <a href="https://vlmaps.github.io/" class="thumbnail"><img src="images/vlmaps-teaser.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://vlmaps.github.io/">Visual Language Maps for Robot Navigation</a></h3>
+            <p>
+              Chenguang Huang, Oier Mees, Andy Zeng, Wolfram Burgard<br>
+                <i>arXiv:2210.05714 (preprint) 2022</i><br>
+                <a href="https://vlmaps.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2210.05714.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/Tom-Huang/vlmaps">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://code-as-policies.github.io/" class="thumbnail"><img src="images/code-as-policies-teaser.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://code-as-policies.github.io/">Code as Policies: Language Model Programs for Embodied Control</a></h3>
+            <p>
+              Jacky Liang, Wenlong Huang, Fei Xia, Peng Xu, Karol Hausman, Brian Ichter, Pete Florence, Andy Zeng<br>
+                <i>arXiv:2209.07753 (preprint) 2022</i><br>
+                <a href="https://code-as-policies.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2209.07753.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/google-research/google-research/tree/master/code_as_policies">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://colab.research.google.com/drive/1V9GU70GQN-Km4qsxYqvR-c0Sgzod19-j">Colab</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2022/11/robots-that-write-their-own-code.html">Google AI Blog</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://techcrunch.com/2022/11/02/google-wants-robots-to-generate-their-own-code/">TechCrunch</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.axios.com/2022/11/03/google-artificial-intelligence">AXIOS</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2212.06088" class="thumbnail"><img src="images/mira-teaser.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2212.06088">MIRA: Mental Imagery for Robotic Affordances</a></h3>
+            <p>
+              Lin Yen-Chen, Pete Florence, Andy Zeng, Jonathan T. Barron, Yilun Du, Wei-Chiu Ma, Anthony Simeonov, Alberto Rodriguez Garcia, Phillip Isola<br>
+                <i>Conference on Robot Learning (CoRL) 2022</i><br>
+                <a href="https://arxiv.org/abs/2212.06088">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://innermonologue.github.io/" class="thumbnail"><img src="images/innermonologue-teaser.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://innermonologue.github.io/">Inner Monologue: Embodied Reasoning through Planning with Language Models</a></h3>
+            <p>
+              Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, Brian Ichter<br>
+                <i>Conference on Robot Learning (CoRL) 2022</i><br>
+                <a href="https://innermonologue.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2207.05608.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=Ybk8hxKeMYQ">2 Minute Papers</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/abs/2210.03701" class="thumbnail"><img src="images/virdoplus-teaser.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/abs/2210.03701">VIRDO++: Real-World, Visuo-Tactile Dynamics and Perception of Deformable Objects</a></h3>
+            <p>
+              Youngsun Wi, Andy Zeng, Pete Florence, Nima Fazeli<br>
+                <i>Conference on Robot Learning (CoRL) 2022</i><br>
+                <a href="https://arxiv.org/pdf/2210.03701.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://socraticmodels.github.io/" class="thumbnail">
+            <video playsinline="" muted="" autoplay="" loop="" width="180px">
+              <!-- <source src="https://socraticmodels.github.io/images/sm_2_ego_qa.mp4" type="video/mp4"> -->
+              <source src="images/socratic-robots.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div class="project-description">
+            <h3><a href="https://socraticmodels.github.io/">Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language</a></h3>
+            <p>
+              Andy Zeng, Maria Attarian, Brian Ichter, Krzysztof Choromanski, Adrian Wong, Stefan Welker, Federico Tombari, Aveek Purohit, Michael Ryoo, Vikas Sindhwani, Johnny Lee, Vincent Vanhoucke, Pete Florence<br>
+                <i>arXiv:2204.00598 (preprint) 2022</i><br>
+                <a href="https://socraticmodels.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2204.00598.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://socraticmodels.github.io/#code">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://say-can.github.io/" class="thumbnail">
+            <video playsinline="" muted="" autoplay="" loop="" width="180px">
+              <source src="images/saycan.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div class="project-description">
+            <h3><a href="https://say-can.github.io/">Do As I Can, Not As I Say: Grounding Language in Robotic Affordances</a></h3>
+            <p>
+              Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron David, Chelsea Finn, Chuyuan Fu, Keerthana Gopalakrishnan, Karol Hausman, Alex Herzog, Daniel Ho, Jasmine Hsu, Julian Ibarz, Brian Ichter, Alex Irpan, Eric Jang, Rosario Jauregui Ruano, Kyle Jeffrey, Sally Jesmonth, Nikhil J Joshi, Ryan Julian, Dmitry Kalashnikov, Yuheng Kuang, Kuang-Huei Lee, Sergey Levine, Yao Lu, Linda Luu, Carolina Parada, Peter Pastor, Jornell Quiambao, Kanishka Rao, Jarek Rettinghouse, Diego Reyes, Pierre Sermanet, Nicolas Sievers, Clayton Tan, Alexander Toshev, Vincent Vanhoucke, Fei Xia, Ted Xiao, Peng Xu, Sichun Xu, Mengyuan Yan, Andy Zeng<br>
+                <i>Conference on Robot Learning (CoRL) 2022</i><br>
+                <font color="49bf9"><i>&#9733; Oral Presentation, Special Innovation Award, CoRL &#9733;</i></font><br>
+                <a href="https://say-can.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/abs/2204.01691">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/google-research/google-research/tree/master/saycan">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2022/08/towards-helpful-robots-grounding.html">Google AI Blog</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.wired.com/story/google-robot-learned-to-take-orders-by-scraping-the-web/">Wired</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.washingtonpost.com/video/technology/google-is-training-robots-to-perform-complex-tasks/2022/08/16/3339cdbb-344b-482f-8671-33022725df81_video.html">Washington Post</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=dCPHGwW9SOk">CNET</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://sites.google.com/berkeley.edu/cloudfolding" class="thumbnail"><img src="images/cloudfolding.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://sites.google.com/berkeley.edu/cloudfolding">Learning to Fold Real Garments with One Arm: A Case Study in Cloud-Based Robotics Research</a></h3>
+            <p>
+              Ryan Hoque, Kaushik Shivakumar, Shrey Aeron, Gabriel Deza, Aditya Ganapathi, Adrian Wong, Johnny Lee, Andy Zeng, Vincent Vanhoucke, Ken Goldberg<br>
+                <i>IEEE International Conference on Intelligent Robots and Systems (IROS) 2022</i><br>
+                <a href="https://sites.google.com/berkeley.edu/cloudfolding">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2204.10297.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/google-research/pyreach">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://ieeexplore.ieee.org/abstract/document/9893496" class="thumbnail"><img src="images/multi-obj-teaser.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://ieeexplore.ieee.org/abstract/document/9893496">Algorithms and Systems for Manipulating Multiple Objects</a></h3>
+            <p>
+              Zherong Pan, Andy Zeng, Yunzhu Li, Jingjin Yu, Kris Hauser<br>
+                <i>IEEE Transactions on Robotics (T-RO) 2022</i><br>
+                <a href="https://ieeexplore.ieee.org/abstract/document/9893496">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://learning-dynamic-manipulation.cs.princeton.edu" class="thumbnail"><img src="images/air-wu.gif" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://learning-dynamic-manipulation.cs.princeton.edu">Learning Pneumatic Non-Prehensile Manipulation with a Mobile Blower</a></h3>
+            <p>
+              Jimmy Wu, Xingyuan Sun, Andy Zeng, Shuran Song, Szymon Rusinkiewicz, Thomas Funkhouser<br>
+                <i>IEEE International Conference on Intelligent Robots and Systems (IROS) 2022</i><br>
+                <i>IEEE Robotics and Automation Letters (RA-L) 2022</i><br>
+                <a href="https://learning-dynamic-manipulation.cs.princeton.edu">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2204.02390.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/jimmyyhwu/learning-dynamic-manipulation">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/pdf/2203.08715.pdf" class="thumbnail"><img src="images/infuser.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/pdf/2203.08715.pdf">Multiscale Sensor Fusion and Continuous Control with Neural CDEs</a></h3>
+            <p>
+              Sumeet Singh, Francis McCann Ramirez, Jacob Varley, Andy Zeng, Vikas Sindhwani<br>
+                <i>IEEE International Conference on Intelligent Robots and Systems (IROS) 2022</i><br>
+                <a href="https://arxiv.org/pdf/2203.08715.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/pdf/2203.01983.pdf" class="thumbnail"><img src="images/implicit-kinematic-policies.gif" alt="" height="135px"/></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/pdf/2203.01983.pdf">Implicit Kinematic Policies: Unifying Joint and Cartesian Action Spaces in End-to-End Robot Learning</a></h3>
+            <p>
+              Aditya Ganapathi, Pete Florence, Jake Varley, Kaylee Burns, Ken Goldberg, Andy Zeng<br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2022</i><br>
+                <a href="https://sites.google.com/view/implicit-kinematic-policies">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2203.01983.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/pdf/2202.00868.pdf" class="thumbnail"><img src="images/virdo-sim.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/pdf/2202.00868.pdf">VIRDO: Visio-Tactile Implicit Representations of Deformable Objects</a></h3>
+            <p>
+              Youngsun Wi, Pete Florence, Andy Zeng, Nima Fazeli<br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2022</i><br>
+                <a href="https://arxiv.org/pdf/2202.00868.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/pdf/2109.07578.pdf" class="thumbnail"><img src="images/multitask-transporter.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/pdf/2109.07578.pdf">Multi-Task Learning with Sequence-Conditioned Transporter Networks</a></h3>
+            <p>
+              Michael H. Lim, Andy Zeng, Brian Ichter, Maryam Bandari, Erwin Coumans, Claire Tomlin, Stefan Schaal, Aleksandra Faust<br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2022</i><br>
+                <a href="https://arxiv.org/pdf/2109.07578.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://arxiv.org/pdf/2110.04367.pdf" class="thumbnail"><img src="images/hybrid-random-features.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://arxiv.org/pdf/2110.04367.pdf">Hybrid Random Features</a></h3>
+            <p>
+              Krzysztof Choromanski, Haoxian Chen, Han Lin, Yuanzhe Ma, Arijit Sehanobish, Deepali Jain, Michael S Ryoo, Jake Varley, Andy Zeng, Valerii Likhosherstov, Dmitry Kalashnikov, Vikas Sindhwani, Adrian Weller<br>
+                <i>The International Conference on Learning Representations (ICLR) 2022</i><br>
+                <a href="https://arxiv.org/pdf/2110.04367.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://implicitbc.github.io/" class="thumbnail">
+            <video playsinline="" muted="" autoplay="" loop="" width="180px">
+              <source src="images/teaser-ibc.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div class="project-description">
+            <h3><a href="https://implicitbc.github.io/">Implicit Behavioral Cloning</a></h3>
+            <p>
+              Pete Florence, Corey Lynch, Andy Zeng, Oscar Ramirez, Ayzaan Wahid, Laura Downs, Adrian Wong, Johnny Lee, Igor Mordatch, Jonathan Tompson<br>
+                <i>Conference on Robot Learning (CoRL) 2021</i><br>
+                <a href="https://implicitbc.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2109.00137.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/google-research/ibc">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2021/11/decisiveness-in-imitation-learning-for.html">Google AI Blog</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://x-irl.github.io/" class="thumbnail"><img src="images/xirl-overlay.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://x-irl.github.io/">XIRL: Cross-Embodiment Inverse Reinforcement Learning</a></h3>
+            <p>
+              Kevin Zakka, Andy Zeng, Pete Florence, Jonathan Tompson, Jeannette Bohg, Debidatta Dwibedi<br>
+                <i>Conference on Robot Learning (CoRL) 2021</i><br>
+                <font color="49bf9"><i>&#9733; Best Paper Award Finalist, CoRL &#9733;</i></font><br>
+                <a href="https://x-irl.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2106.03911.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/google-research/google-research/tree/master/xirl">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/kevinzakka/x-magical">Benchmark</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2022/02/robot-see-robot-do.html">Google AI Blog</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://spatial-intention-maps.cs.princeton.edu/" class="thumbnail"><img src="images/teaser-spatial-intention-maps.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://spatial-intention-maps.cs.princeton.edu/">Spatial Intention Maps for Multi-Agent Mobile Manipulation</a></h3>
+            <p>
+              Jimmy Wu, Xingyuan Sun, Andy Zeng, Shuran Song, Szymon Rusinkiewicz, Thomas Funkhouser<br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2021</i><br>
+                <a href="https://spatial-intention-maps.cs.princeton.edu/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2103.12710.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/jimmyyhwu/spatial-intention-maps">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://engineering.princeton.edu/news/2022/01/25/picking-trash-robots-pick-new-approaches-work">Princeton News</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://berkeleyautomation.github.io/bags/" class="thumbnail"><img src="images/teaser-deformable-transporter.gif" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://berkeleyautomation.github.io/bags/">Learning to Rearrange Deformable Cables, Fabrics, and Bags with Goal-Conditioned Transporter Networks</a></h3>
+            <p>
+              Daniel Seita, Pete Florence, Jonathan Tompson, Erwin Coumans, Vikas Sindhwani, Ken Goldberg, Andy Zeng<br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2021</i><br>
+                <a href="https://berkeleyautomation.github.io/bags/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2012.03385.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/DanielTakeshi/deformable-ravens">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2021/05/learning-to-manipulate-deformable.html">Google AI Blog</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://transporternets.github.io/" class="thumbnail">
+            <video playsinline="" muted="" autoplay="" loop="" width="180px">
+              <source src="images/transporter-nets-animation.mp4" type="video/mp4">
+            </video>
+          </a>
+          <div class="project-description">
+            <h3><a href="https://transporternets.github.io/">Transporter Networks: Rearranging the Visual World for Robotic Manipulation</a></h3>
+            <p>
+              Andy Zeng, Pete Florence, Jonathan Tompson, Stefan Welker, Jonathan Chien, Maria Attarian, Travis Armstrong, Ivan Krasin, Dan Duong, Vikas Sindhwani, Johnny Lee<br>
+                <i>Conference on Robot Learning (CoRL) 2020</i><br>
+                <font color="49bf9"><i>&#9733; Plenary Talk, Best Paper Presentation Award Finalist, CoRL &#9733;</i></font><br>
+                <a href="https://transporternets.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2010.14406.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/google-research/ravens">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2021/02/rearranging-visual-world.html">Google AI Blog</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://venturebeat.com/2020/10/28/googles-transporter-networks-learn-to-stack-blocks-and-assemble-mouthwash-kits-from-as-few-examples/">VentureBeat</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://spatial-action-maps.cs.princeton.edu/" class="thumbnail"><img src="images/teaser-spatial-action-maps.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://spatial-action-maps.cs.princeton.edu/">Spatial Action Maps for Mobile Manipulation</a></h3>
+            <p>
+              Jimmy Wu, Xingyuan Sun, Andy Zeng, Shuran Song, Johnny Lee, Szymon Rusinkiewicz, Thomas Funkhouser<br>
+                <i>Robotics: Science and Systems (RSS) 2020</i><br>
+                <a href="https://spatial-action-maps.cs.princeton.edu/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/2004.09141.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/jimmyyhwu/spatial-action-maps">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://engineering.princeton.edu/news/2022/01/25/picking-trash-robots-pick-new-approaches-work">Princeton News</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://graspinwild.cs.columbia.edu/" class="thumbnail"><img src="images/teaser-grasp-in-wild.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://graspinwild.cs.columbia.edu/">Grasping in the Wild: Learning 6DoF Closed-Loop Grasping from Low-Cost Demonstrations</a></h3>
+            <p>
+              Shuran Song, Andy Zeng, Johnny Lee, Thomas Funkhouser<br>
+                <i>IEEE International Conference on Intelligent Robots and Systems (IROS) 2020</i><br>
+                <i>IEEE Robotics and Automation Letters (RA-L) 2020</i><br>
+                <a href="https://graspinwild.cs.columbia.edu/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1912.04344.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://form2fit.github.io" class="thumbnail"><img src="images/teaser-kitting.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://form2fit.github.io/">Form2Fit: Learning Shape Priors for Generalizable Assembly from Disassembly</a></h3>
+            <p>
+              Kevin Zakka, Andy Zeng, Johnny Lee, Shuran Song<br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2020</i><br>
+                <font color="49bf9"><i>&#9733; Best Paper in Automation Award Finalist, ICRA &#9733;</i></font><br>
+                <a href="https://form2fit.github.io/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1910.13675.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/kevinzakka/form2fit">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2019/10/learning-to-assemble-and-to-generalize.html">Google AI Blog</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://venturebeat.com/2019/10/31/watch-googles-ai-teach-a-picker-robot-to-assemble-objects/">VentureBeat</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=O8l4Kn-j-5M">2 Minute Papers</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://sites.google.com/view/cleargrasp" class="thumbnail"><img src="images/teaser-cleargrasp.gif" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://sites.google.com/view/cleargrasp">ClearGrasp: 3D Shape Estimation of Transparent Objects for Manipulation</a></h3>
+            <p>
+              Shreeyak Sajjan, Matthew Moore, Mike Pan, Ganesh Nagaraja, Johnny Lee, Andy Zeng, Shuran Song<br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2020</i><br>
+                <a href="https://sites.google.com/view/cleargrasp">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1910.02550.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/Shreeyak/cleargrasp">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://sites.google.com/view/transparent-objects">Dataset</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2020/02/learning-to-see-transparent-objects.html">Google AI Blog</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://venturebeat.com/2020/02/12/googles-cleargrasp-ai-model-helps-robots-better-recognize-transparent-objects/">VentureBeat</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://yenchenlin.me/vision2action/" class="thumbnail"><img src="images/teaser-vision2action.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="http://yenchenlin.me/vision2action/">Learning to See before Learning to Act: Visual Pre-training for Manipulation</a></h3>
+            <p>
+              Lin Yen-Chen, Andy Zeng, Shuran Song, Phillip Isola, Tsung-Yi Lin<br>
+                <i>IEEE International Conference on Robotics and Automation (ICRA) 2020</i><br>
+                <a href="http://yenchenlin.me/vision2action/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://drive.google.com/file/d/1rlj-t0wOdnU0ReK-WXUTPaM68zg_uW8C/view">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/yenchenlin/vision2action">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://ai.googleblog.com/2020/03/visual-transfer-learning-for-robotic.html">Google AI Blog</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://venturebeat.com/2020/03/20/googles-taps-computer-vision-to-improve-robot-manipulation-performance/">VentureBeat</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://tossingbot.cs.princeton.edu/" class="thumbnail"><img src="images/teaser-tossingbot.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://tossingbot.cs.princeton.edu/">TossingBot: Learning to Throw Arbitrary Objects with Residual Physics</a></h3>
+            <p>
+              Andy Zeng, Shuran Song, Johnny Lee, Alberto Rodriguez, Thomas Funkhouser<br>
+                <i>Robotics: Science and Systems (RSS) 2019</i><br>
+                <i>IEEE Transactions on Robotics (T-RO) 2020</i><br>
+                <i>Featured on the front page of <a href="images/nytimes-business-newspaper-tossingbot.png">The New York Times Business</a>!</i><br>
+
+                <font color="49bf9"><i>&#9733; King-Sun Fu Memorial Best Paper Award, T-RO &#9733;</i></font><br>
+                <font color="49bf9"><i>&#9733; Best Systems Paper Award, RSS &#9733;</i></font><br>
+                <font color="49bf9"><i>&#9733; Best Student Paper Award Finalist, RSS &#9733;</i></font><br>
+                <a href="https://tossingbot.cs.princeton.edu/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1903.11239.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <!-- <a href="https://github.com/andyzeng/visual-pushing-grasping">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                <a href="https://ai.googleblog.com/2019/03/unifying-physics-and-deep-learning-with.html">Google AI Blog</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="images/nytimes-business-newspaper-tossingbot.png">New York Times</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://spectrum.ieee.org/automaton/robotics/artificial-intelligence/google-teaches-robot-to-toss-bananas-better-than-you-do">IEEE Spectrum</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://www.zhenjiaxu.com/DensePhysNet/" class="thumbnail"><img src="images/teaser-densephysnet.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="http://www.zhenjiaxu.com/DensePhysNet/">DensePhysNet: Learning Dense Physical Object Representations via Multi-step Dynamic Interactions</a></h3>
+            <p>
+              Zhenjia Xu, Jiajun Wu, Andy Zeng, Joshua B. Tenenbaum, Shuran Song<br>
+                <i>Robotics: Science and Systems (RSS) 2019</i><br>
+                <a href="http://www.zhenjiaxu.com/DensePhysNet/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1906.03853.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/zhenjia-xu/DensePhysNet-Simulation/">Code</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://vpg.cs.princeton.edu/" class="thumbnail"><img src="images/teaser-visual-pushing-grasping.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="http://vpg.cs.princeton.edu/">Learning Synergies between Pushing and Grasping with Self-supervised Deep Reinforcement Learning</a></h3>
+            <p>
+              Andy Zeng, Shuran Song, Stefan Welker, Johnny Lee, Alberto Rodriguez, Thomas Funkhouser<br>
+              <i>IEEE International Conference on Intelligent Robots and Systems (IROS) 2018</i><br>
+              <font color="49bf9"><i>&#9733; Best Cognitive Robotics Paper Award Finalist, IROS &#9733;</i></font><br>
+                <a href="http://vpg.cs.princeton.edu/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1803.09956.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/andyzeng/visual-pushing-grasping">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=txHQoYKaSUk">2 Minute Papers</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://www.tandfonline.com/doi/full/10.1080/01691864.2019.1698463" class="thumbnail"><img src="images/teaser-mc2.png" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://www.tandfonline.com/doi/full/10.1080/01691864.2019.1698463">What are the Important Technologies for Bin Picking? Technology Analysis of Robots in Competitions Based on a Set of Performance Metrics</a></h3>
+            <p>
+              Masahiro Fujita, Yukiyasu Domae, Akio Noda, Gustavo Alfonso Garcia Ricardez, Tatsuya Nagatani, Andy Zeng, Shuran Song, Alberto Rodriguez, Albert Causo, I-Ming Chen, Tsukasa Ogasawara<br>
+              <i>Advanced Robotics (Journal) 2019</i><br>
+              <font color="49bf9"><i>&#9733; Japan Factory Automation (FA) Foundation Paper Award &#9733;</i></font><br>
+                <a href="https://www.tandfonline.com/doi/full/10.1080/01691864.2019.1698463">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.tandfonline.com/doi/full/10.1080/01691864.2019.1698463">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://arc.cs.princeton.edu" class="thumbnail"><img src="images/teaser-amazon-robotics-challenge.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="http://arc.cs.princeton.edu">Robotic Pick-and-Place of Novel Objects in Clutter with Multi-Affordance Grasping and Cross-Domain Image Matching</a></h3>
+            <p>
+              Andy Zeng, Shuran Song, Kuan-Ting Yu, Elliott Donlon, Francois R. Hogan, Maria Bauza, Daolin Ma, Orion Taylor, Melody Liu, Eudald Romo, Nima Fazeli, Ferran Alet, Nikhil Chavan Dafle, Rachel Holladay, Isabella Morona, Prem Qu Nair, Druck Green, Ian Taylor, Weber Liu, Thomas Funkhouser, Alberto Rodriguez<br>
+              <i>IEEE International Conference on Robotics and Automation (ICRA) 2018</i><br>
+              <i>The International Journal of Robotics Research (IJRR) 2019</i><br>
+              <font color="49bf9"><i>&#9733; Best Systems Paper Award, Amazon Robotics &#9733;</i></font><br>
+              <font color="49bf9"><i>&#9733; 1st Place (Stow Task), Amazon Robotics Challenge 2017 &#9733;</i></font><br>
+                <a href="http://arc.cs.princeton.edu">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1710.01330.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/andyzeng/arc-robot-vision">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://journals.sagepub.com/doi/10.1177/0278364919868017">Journal (IJRR)</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="http://news.mit.edu/2018/robo-picker-grasps-and-packs-0220">MIT News</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <!-- <a href="https://www.youtube.com/watch?v=yVIRLao1E28">Amazon News</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp; -->
+                <a href="https://www.engadget.com/2018/02/20/robot-pick-up-sort-object-improve-warehouse-efficiency/">Engadget</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://im2pano3d.cs.princeton.edu" class="thumbnail"><img src="images/teaser-im2pano3d.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="http://im2pano3d.cs.princeton.edu">Im2Pano3D: Extrapolating 360&deg; Structure and Semantics Beyond the Field of View</a></h3>
+            <p>
+              Shuran Song, Andy Zeng, Angel X. Chang, Manolis Savva, Silvio Savarese, Thomas Funkhouser
+              <br>
+              <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2018</i><br>
+              <font color="49bf9"><i>&#9733; Oral Presentation, CVPR &#9733;</i></font><br>
+                <a href="http://im2pano3d.cs.princeton.edu">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1712.04569.pdf">PDF</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="https://niessner.github.io/Matterport" class="thumbnail"><img src="images/teaser-matterport.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="https://niessner.github.io/Matterport">Matterport3D: Learning from RGB-D Data in Indoor Environments</a></h3>
+            <p>
+              Angel Chang, Angela Dai, Thomas Funkhouser, Maciej Halber, Matthias Nießner, Manolis Savva, Shuran Song, Andy Zeng, Yinda Zhang
+              <br>
+              <i>IEEE International Conference on 3D Vision (3DV) 2017</i><br>
+                <a href="https://niessner.github.io/Matterport">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1709.06158.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/niessner/Matterport">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://matterport.com/blog/2017/09/20/announcing-matterport3d-research-dataset/">Matterport Blog</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://3dmatch.cs.princeton.edu/" class="thumbnail"><img src="images/teaser-3dmatch.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="http://3dmatch.cs.princeton.edu/">3DMatch: Learning Local Geometric Descriptors from RGB-D Reconstructions</a></h3>
+            <p>
+              Andy Zeng, Shuran Song, Matthias Nießner, Matthew Fisher, Jianxiong Xiao, Thomas Funkhouser
+              <br>
+              <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017</i><br>
+              <font color="49bf9"><i>&#9733; Oral Presentation, CVPR &#9733;</i></font><br>
+                <a href="http://3dmatch.cs.princeton.edu/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1603.08182.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/andyzeng/3dmatch-toolbox">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=qNVZl7bCjsU&list=PL_bDvITUYucADb15njRd7geem8vxOyo6N&index=3">Talk</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=1U3YKnuMS7g">2 Minute Papers</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://sscnet.cs.princeton.edu/" class="thumbnail"><img src="images/teaser-sscnet.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="http://sscnet.cs.princeton.edu/">Semantic Scene Completion from a Single Depth Image</a></h3>
+            <p>
+              Shuran Song, Fisher Yu, Andy Zeng, Angel X. Chang, Manolis Savva, Thomas Funkhouser
+              <br>
+              <i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017</i><br>
+              <font color="49bf9"><i>&#9733; Oral Presentation, CVPR &#9733;</i></font><br>
+                <a href="http://sscnet.cs.princeton.edu/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1611.08974.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="http://suncg.cs.princeton.edu/">SUNCG Dataset</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/shurans/sscnet">Code</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=Aq7hLLIz5a0&list=PL_bDvITUYucADb15njRd7geem8vxOyo6N&index=2">Talk</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://www.youtube.com/watch?v=8YWgar0uCF8">2 Minute Papers</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="list-item publication" data-category="publication">
+          <a href="http://apc.cs.princeton.edu/" class="thumbnail"><img src="images/teaser-amazon-picking-challenge.jpg" alt="" /></a>
+          <div class="project-description">
+            <h3><a href="http://apc.cs.princeton.edu/">Multi-view Self-supervised Deep Learning for 6D Pose Estimation in the Amazon Picking Challenge</a></h3>
+            <p>
+              Andy Zeng, Kuan-Ting Yu, Shuran Song, Daniel Suo, Ed Walker Jr., Alberto Rodriguez, Jianxiong Xiao
+              <br>
+              <i>IEEE International Conference on Robotics and Automation (ICRA) 2017</i><br>
+              <font color="49bf9"><i>&#9733; 3rd Place, Amazon Robotics Challenge 2016 &#9733;</i></font><br>
+                <a href="http://apc.cs.princeton.edu/">Webpage</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://arxiv.org/pdf/1609.09475.pdf">PDF</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="http://apc.cs.princeton.edu/#shelf-and-tote-benchmark-dataset">Shelf &amp; Tote Dataset</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+                <a href="https://github.com/andyzeng/apc-vision-toolbox">Code</a>
+            </p>
+          </div>
+        </div>
+
+
+
+        <!-- Talks -->
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2022</p>NeurIPS Workshop on <a href="http://www.robot-learning.ml/2022/">Robot Learning</a> (<a href="https://youtu.be/nxFwcfEp0II">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>NeurIPS Workshop on <a href="https://aihabitat.org/challenge/2022_rearrange/">Habitat Rearrangement Challenge</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at Columbia <a href="https://www.coursicle.com/columbia/courses/IEOR/E6617/">IEOR E6617: Machine Learning and High-Dimensional Data</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Princeton <a href="https://robo.princeton.edu/seminar">Robotics Seminar</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>RSS Workshop on <a href="https://imrss2022.github.io/">Implicit Representations</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>CVPR Tutorial on <a href="https://sites.google.com/view/cvpr2022-robot-learning/">Vision-Based Robot Learning</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>MIT <a href="https://ei.csail.mit.edu/csl.html">CSL Seminar (<a href="https://youtu.be/QX47jTL5XUM">video</a>)</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at Columbia <a href="https://sites.google.com/view/spring2022-coms4733/home">COMS 4733: Computational Aspects of Robotics</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2021</p>CVPR Workshop on <a href="https://sites.google.com/view/cvpr2021-3d-vision-robotics">3D Vision and Robotics</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at <a href="http://michaelryoo.com/course/cse525/">Stony Brook University CSE525: Introduction to Robotics</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at <a href="https://www.coursicle.com/nyu/courses/CSCIUA/74/">NYU CSCI-UA 74: Big Ideas in Artificial Intelligence</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2020</p>RSS Workshop on <a href="https://www.brainlinks-braintools.uni-freiburg.de/rss-2020-workshop/">Self-Supervised Robot Learning</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>RSS Workshop on <a href="https://sites.google.com/stanford.edu/roboticsretrospectives/home">Robotics Retrospectives</a> (<a href="https://www.youtube.com/watch?v=rjMmsIN7B0A">video</a>)
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2019</p>Amazon Research <a href="https://www.amazon.jobs/pt/teams/amazon-robotics">Robotics Symposium</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date">2018</p>RE·WORK <a href="https://blog.re-work.co/deep-learning-for-robotics-ai-industrial-automation-summit-highlights/">Deep Learning for Robotics Summit</a>
+        </div>
+
+        <div class="list-item talk" data-category="talk">
+          <p class="date"></p>Guest Lecture at NCTU Robotics Seminar: Robotic Manipulation
+        </div>
+
+
+
+
+        <!-- Services -->
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2022</p>Area Chair, Conference on Robot Learning (CoRL)
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, CoRL Workshop on <a href="https://sites.google.com/view/corl2022-prl">Pre-training Robot Learning</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, CoRL Workshop on <a href="https://sites.google.com/view/corl-2022-inductive-bias-ws">Inductive Bias in Robot Learning</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Session Chair, Robotics: Science and Systems (RSS)
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, 2nd RSS Workshop on <a href="https://sites.google.com/view/rss22-srl/">Scaling Robot Learning</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, CVPR Tutorial on <a href="https://sites.google.com/view/cvpr2022-robot-learning/">Vision-Based Robot Learning</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Session Chair, IEEE International Conference on Robotics and Automation (ICRA)
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, ICRA Workshop on <a href="https://sites.google.com/view/icra22-srl">Scaling Robot Learning</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2021</p>Area Chair, Conference on Robot Learning (CoRL)
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Sponsor, Google Research Scholar Program
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Session Chair, IEEE International Conference on Robotics and Automation (ICRA)
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Co-Organizer, RSS Workshop on <a href="https://sites.google.com/view/rss-ai-manipulationperspective/home">Advancing AI and Manipulation for Robotics</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2020</p>Mentor, Google <a href="https://research.google/outreach/csrmp/">CS Research Mentorship Program</a>
+        </div>
+        
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Sponsor, Google Faculty Research Awards
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2016</p>Co-Organizer, CVPR Workshop on <a href="https://3dvision.princeton.edu/event/cvpr16/3DDeepLearning/">3D Deep Learning</a>
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date">2015+</p>Reviewer, T-RO, RSS, CoRL, IJRR, RA-L, ICRA, NeurIPS, CVPR, IROS, ECCV, ICCV
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Reviewer, SIGGRAPH, PR Journal, Eurographics, TMM, TIP, CASE, TCSVT
+        </div>
+
+        <div class="list-item misc" data-category="misc">
+          <p class="date"></p>Member, IEEE
+        </div>
+
+      </div>
+    </div>
+
+    <div id="footer"><p>Feel free to download this website's <a href="https://github.com/andyzeng/andyzeng.github.io">template</a>, just add a link back to my website. Inspired by <a href="https://jonbarron.info/">Jon Barron</a>.</p></div>
+
+    <script>
+
+      // Isotope grid.
+      var $grid = $('.grid').isotope({
+        itemSelector: '.list-item',
+        layoutMode: 'fitRows',
+        transitionDuration: 0,
+        stagger: 10,
+        initLayout: false,
+        getSortData: {
+          name: '.name',
+          symbol: '.symbol',
+          number: '.number parseInt',
+          category: '[data-category]',
+          weight: function( itemElem ) {
+            var weight = $( itemElem ).find('.weight').text();
+            return parseFloat( weight.replace( /[\(\)]/g, '') );
+          }
+        }
+      });
+
+      // Bind filter button click.
+      $('#filters').on( 'click', 'button', function() {
+        var filterValue = $( this ).attr('data-filter');
+        localStorage.setItem('filterValue', filterValue);
+        $grid.isotope({ filter: filterValue });
+      });
+
+      // Change is-checked class on buttons.
+      $('.button-group').each( function( i, buttonGroup ) {
+        var $buttonGroup = $( buttonGroup );
+        $buttonGroup.on( 'click', 'button', function() {
+          $buttonGroup.find('.is-checked').removeClass('is-checked');
+          $( this ).addClass('is-checked');
+        });
+      });
+
+      function update_isotope() {
+        // Retrieve cached button click.
+        var defaultFilterValue = localStorage.getItem('filterValue');
+        if (defaultFilterValue == null) {
+          defaultFilterValue = ".highlight"
+        }
+        $grid.isotope({ filter: defaultFilterValue });
+        var buttons = document.getElementsByClassName("button");
+        for (var currButton of buttons) {
+          if (currButton.getAttribute('data-filter') == defaultFilterValue) {
+            currButton.classList.add('is-checked');
+          } else {
+            currButton.classList.remove('is-checked');
+          }
+        }
+      }
+
+      function toggle_bio() {
+        var x = document.getElementById("more-bio");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      function toggle_highlights() {
+        var x = document.getElementById("main-highlights");
+        var y = document.getElementById("more-highlights");
+        var b = document.getElementById("toggle_highlights_button")
+        if (y.style.display === "none") {
+          x.style.display = "none";
+          y.style.display = "block";
+          b.innerHTML = "Show less"
+          update_isotope();
+        } else {
+          x.style.display = "block";
+          y.style.display = "none";
+          b.innerHTML = "Show more"
+          update_isotope();
+        }
+      }
+
+      update_isotope();
+
+      function auto_grow(element) {
+        element.style.height = "5px";
+        element.style.height = (element.scrollHeight - 20)+"px";
+      }
+      function pressed(e) {
+        if(e.which === 13 && !e.shiftKey) {
+          e.preventDefault();
+          document.getElementById("register").submit();
+          document.getElementById("user_input").disabled = "true";
+        }
+      }
+      function reset(e) {
+        document.getElementById("user_input").value = "reset";
+        document.getElementById("register").submit();
+        document.getElementById("user_input").disabled = "true";
+      }
+
+    </script>
+  </body>
+</html>

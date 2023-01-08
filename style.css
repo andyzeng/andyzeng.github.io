@@ -1,0 +1,313 @@
+/* CSS Reset: http://meyerweb.com/eric/tools/css/reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**************************************************/
+
+#body{
+  font-family: 'Asap', roboto, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #150c21;
+}
+
+#main {
+  width: 54em;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 110, 190);
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid rgb(20, 110, 190);
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.4em;
+  line-height: 3em;
+  font-weight: 500;
+}
+
+/**************************************************/
+/* Profile image and description. */
+
+#header {
+  height: 6em;
+}
+
+#intro {
+  display: flex;
+}
+
+#intro-text {
+  width: 40em;
+  float: left;
+}
+
+#intro-image {
+  margin: 2em 0 0 2em;
+  width: 12em;
+  height: 12em;
+  float: left;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+#intro-image img {
+  width: 12em;
+}
+
+/**************************************************/
+/* Section buttons. */
+
+#menu {
+  display: flex;
+}
+
+.menu-item {
+  float: left;
+  margin-right: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  line-height: 2.4em;
+  margin-top: 0.5em;
+  color: #a0a8b0;
+}
+
+.selected h2 {
+  color: #150c21;
+}
+
+.button {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: #a0a8b0;
+  font-size: 1.6em;
+  line-height: 2.4em;
+  margin-top: 0.5em;
+  margin-right: 1em;
+  float: left;
+  padding: 0;
+}
+
+.button:hover {
+  color: #150c21;
+}
+
+.button:active,
+.button.is-checked {
+  color: #150c21;
+}
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/**************************************************/
+/* Isotope grid list of items. */
+
+.grid {
+  background-color: #fff;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.description {
+  margin-bottom: 1em;
+}
+
+.list-item {
+  width: 100%;
+  line-height: 1em;
+  margin-top: 1em;
+}
+
+.list-item p.date {
+  display: inline-block;
+  width: 3em;
+  color: #a0a8b0;
+}
+
+/**************************************************/
+/* Gallery of 3 preview videos. */
+
+.previews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  height: 12.5em;
+}
+
+.previews video {
+  border-radius: 5px;
+}
+
+.previews a:hover {
+  border: none;
+}
+
+.preview1 {
+  grid-column: 1;
+  width: 100%;
+}
+.preview2 {
+  grid-column: 2;
+  width: 100%;
+}
+.preview3 {
+  grid-column: 3;
+  width: 100%;
+}
+
+/**************************************************/
+/* Buttons for showing more or less highlights. */
+
+.toggle-button {
+  margin-top: 2em;
+}
+
+.toggle-button a {
+  color: #a0a8b0;
+}
+
+.toggle-button a:hover {
+  color: rgb(20, 110, 190);
+}
+
+/**************************************************/
+/* Publication details (thumbnail media, title, and description). */
+
+.thumbnail {
+/*  width: 21%;*/
+  width: 18%;
+  float: left;
+  margin-right: 2%;
+}
+
+.thumbnail:hover {
+  border-bottom: none;
+}
+
+.thumbnail img {
+  margin-top: 0.4em;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail video {
+  margin-top: 0.4em;
+  border-radius: 5px;
+/*  width: 10em;*/
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+h3 a {
+  color: #150c21;
+}
+
+h3 a:hover {
+  color: rgb(20, 110, 190);
+}
+
+.publication {
+  margin-bottom: 0.5em;
+}
+
+.publication p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #a0a8b0;
+}
+
+.project-description {
+  width: 80%;
+  float: left;
+}
+
+/**************************************************/
+/* Subtle footer at the bottom of the page. */
+
+#footer {
+  width: 54em;
+  margin: 6em auto 0 auto;
+  color: #a0a8b0;
+}
+
+#footer p {
+  position: absolute;
+  bottom: 1em;
+  z-index: -1;
+}
