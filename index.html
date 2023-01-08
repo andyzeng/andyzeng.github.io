@@ -1023,23 +1023,6 @@
 
       update_isotope();
 
-      function auto_grow(element) {
-        element.style.height = "5px";
-        element.style.height = (element.scrollHeight - 20)+"px";
-      }
-      function pressed(e) {
-        if(e.which === 13 && !e.shiftKey) {
-          e.preventDefault();
-          document.getElementById("register").submit();
-          document.getElementById("user_input").disabled = "true";
-        }
-      }
-      function reset(e) {
-        document.getElementById("user_input").value = "reset";
-        document.getElementById("register").submit();
-        document.getElementById("user_input").disabled = "true";
-      }
-
     </script>
   </body>
 </html>
