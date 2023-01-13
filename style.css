@@ -56,6 +56,8 @@ table {
 #main {
   width: 54em;
   margin: 0px auto;
+  position: relative;
+  min-height: 100vh;
 }
 
 a {
@@ -85,11 +87,8 @@ h1 {
 /**************************************************/
 /* Profile image and description. */
 
-#header {
-  height: 6em;
-}
-
 #intro {
+  padding-top: 6em;
   display: flex;
 }
 
@@ -167,7 +166,7 @@ h2 {
 /* Isotope grid list of items. */
 
 .grid {
-  background-color: #fff;
+  padding-bottom: 6em;
 }
 
 /* clear fix */
@@ -300,13 +299,8 @@ h3 a:hover {
 /* Subtle footer at the bottom of the page. */
 
 #footer {
-  width: 54em;
-  margin: 6em auto 0 auto;
   color: #a0a8b0;
-}
-
-#footer span {
   position: absolute;
-  bottom: 1em;
-  z-index: -1;
+  bottom: 0;
+  line-height: 2.5em;
 }
