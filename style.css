@@ -80,7 +80,7 @@ b {
 
 h1 {
   font-size: 2.4em;
-  line-height: 3em;
+  line-height: 2.4em;
   font-weight: 500;
 }
 
@@ -98,7 +98,7 @@ h1 {
 }
 
 #intro-image {
-  margin: 2em 0 0 2em;
+  margin: 2.7em 0 0 2em;
   width: 12em;
   height: 12em;
   float: left;
@@ -228,7 +228,7 @@ h2 {
 /* Buttons for showing more or less highlights. */
 
 .toggle-button {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .toggle-button a {
