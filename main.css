@@ -1,0 +1,166 @@
+/* CSS Reset: http://meyerweb.com/eric/tools/css/reset */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+/**************************************************/
+
+#body {
+  font-family: 'Asap', roboto, sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #150c21;
+  /* Light paper texture: warm off-white base with subtle SVG grain. */
+  background-color: #faf8f2;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+}
+
+#main {
+  width: 44em;
+  margin: 0px auto;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 6em;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 110, 190);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.4em;
+  line-height: 2.4em;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/**************************************************/
+/* Profile image and description. */
+
+#intro {
+  padding-top: 10em;
+  display: flex;
+}
+
+#intro-text {
+  width: 30em;
+  float: left;
+}
+
+#intro-image {
+  margin: 0.2em 0 0 2em;
+  width: 12em;
+  height: 12em;
+  float: left;
+  overflow: hidden;
+  border-radius: 0.3em;
+  flex-shrink: 0;
+}
+
+#intro-image img {
+  width: 12em;
+}
+
+/**************************************************/
+/* Content sections. */
+
+.section {
+  margin-top: 2em;
+}
+
+h2 {
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 0.5em;
+  color: #150c21;
+}
+
+/* Recent work list. */
+
+.list-item {
+  width: 100%;
+  margin-top: 0.25em;
+  display: flex;
+}
+
+.list-item p.date {
+  order: 2;
+  margin-left: auto;
+  padding-left: 1em;
+  margin-bottom: 0;
+  text-align: right;
+  white-space: nowrap;
+  color: #a0a8b0;
+}
+
+/* Publications. */
+
+.note {
+  color: #a0a8b0;
+}
+
+h3 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.5em;
+  font-weight: 400;
+  display: flex;
+}
+
+.pub-meta {
+  margin-left: auto;
+  padding-left: 1em;
+  text-align: right;
+  white-space: nowrap;
+  color: #a0a8b0;
+}
+
+.publication {
+  margin-bottom: 1em;
+}
+
+.publication p {
+  margin-bottom: 0;
+  color: #a0a8b0;
+}
