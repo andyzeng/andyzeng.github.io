@@ -40,12 +40,12 @@ body {
 }
 
 #main {
-  width: 44em;
+  max-width: 44em;
   margin: 0px auto;
   position: relative;
   min-height: 100vh;
-  padding-bottom: 6em;
-  box-sizing: border-box;
+  padding: 0 1.25em 6em;
+  box-sizing: content-box;
 }
 
 a {
@@ -163,4 +163,44 @@ h3 {
 .publication p {
   margin-bottom: 0;
   color: #a0a8b0;
+}
+
+/**************************************************/
+/* Mobile layout. */
+
+@media (max-width: 600px) {
+  #intro {
+    padding-top: 3em;
+    flex-direction: column-reverse;
+  }
+
+  #intro-text {
+    width: auto;
+  }
+
+  #intro-image {
+    margin: 0 0 1.5em 0;
+  }
+
+  /* Stack dates and citations below their titles. */
+  h3 {
+    display: block;
+  }
+
+  .pub-meta {
+    display: block;
+    padding-left: 0;
+    text-align: left;
+    white-space: normal;
+  }
+
+  .list-item {
+    display: block;
+  }
+
+  .list-item p.date {
+    display: block;
+    padding-left: 0;
+    text-align: left;
+  }
 }
