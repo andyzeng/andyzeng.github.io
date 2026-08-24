@@ -79,17 +79,35 @@ p {
 /* Profile image and description. */
 
 #intro {
-  padding-top: 10em;
+  padding-top: 3em;
   display: flex;
 }
 
 #intro-text {
   width: 30em;
   float: left;
+  /* Lets .mission scale its font to the width of this column. */
+  container-type: inline-size;
+}
+
+/* The mission statement must always render as exactly 3 lines, one per
+   span. The widest line is ~26.5em, so when the text column is narrower
+   than that, scale the font down instead of letting lines rewrap
+   (100cqw / 26.5em-per-em ~= 3.7cqw). */
+.mission span {
+  display: block;
+  white-space: nowrap;
+}
+
+.mission {
+  font-size: min(1em, 3.7cqw);
+  line-height: 1.5;
 }
 
 #intro-image {
-  margin: 0.2em 0 0 2em;
+  /* Top margin clears the h1 (2.4em font x 2.4 line-height) so the
+     photo aligns with the first paragraph. */
+  margin: 5.95em 0 0 2em;
   width: 12em;
   height: 12em;
   float: left;
@@ -166,9 +184,12 @@ h3 {
 }
 
 /**************************************************/
-/* Mobile layout. */
+/* Mobile layout. The breakpoint is where the side-by-side intro would
+   squeeze the text column below the 30em it needs to keep the mission
+   statement's 3 lines intact: 30em text + 2em gap + 12em image + 2.5em
+   page padding = 46.5em ~= 745px. */
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   #intro {
     padding-top: 3em;
     flex-direction: column-reverse;
