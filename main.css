@@ -35,7 +35,7 @@ body {
   line-height: 1.5em;
   color: #150c21;
   /* Light paper texture: warm off-white base with subtle SVG grain. */
-  background-color: #faf8f2;
+  background-color: #fdf9f4;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
 }
 
